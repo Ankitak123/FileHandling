@@ -16,6 +16,7 @@ namespace FileHandling
                 m_StramWriter.WriteLine("Welcome to the Sample file");
                 m_StramWriter.WriteLine("This is next line in the text file");
                 m_StramWriter.Flush();    //once write the strem clear the buffer or temporary memory
+                //Test
 
             }  //the use using block is to claerthe iobject memory so at this point file will close if u use
             StreamReader m_StreamReader = new StreamReader(@"C:\Test\SampleFile.txt");
